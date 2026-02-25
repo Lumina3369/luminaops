@@ -41,6 +41,8 @@ export default function Home() {
               <a
                 className="inline-flex h-12 items-center justify-center rounded-full bg-zinc-950 px-6 text-sm font-medium text-white transition hover:bg-zinc-800 dark:bg-white dark:text-black dark:hover:bg-zinc-200"
                 href="https://buy.stripe.com/3cI8wP99P66geX19Fs7bW00"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Buy LuminaOps Kit — £19
               </a>
