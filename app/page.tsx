@@ -22,7 +22,10 @@ export default function Home() {
               keeping work accounts segmented).
             </p>
 
-            <ul className="grid gap-3 text-sm text-zinc-700 dark:text-zinc-300 sm:grid-cols-2">
+            <ul
+              id="whats-inside"
+              className="grid gap-3 text-sm text-zinc-700 dark:text-zinc-300 sm:grid-cols-2"
+            >
               <li className="rounded-xl border border-black/10 bg-zinc-50 p-4 dark:border-white/10 dark:bg-zinc-900">
                 Command channel rules (Telegram DM-first)
               </li>
@@ -48,11 +51,9 @@ export default function Home() {
               </a>
               <a
                 className="inline-flex h-12 items-center justify-center rounded-full border border-black/10 px-6 text-sm font-medium transition hover:bg-black/[.04] dark:border-white/10 dark:hover:bg-white/10"
-                href="https://vercel.com"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#whats-inside"
               >
-                Deploy on Vercel
+                What’s inside
               </a>
             </div>
 
