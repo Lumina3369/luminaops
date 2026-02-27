@@ -22,10 +22,12 @@ export default function Home() {
               keeping work accounts segmented).
             </p>
 
-            <ul
-              id="whats-inside"
-              className="grid gap-3 text-sm text-zinc-700 dark:text-zinc-300 sm:grid-cols-2"
-            >
+            <section id="whats-inside" className="scroll-mt-24">
+              <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+                What’s inside
+              </h2>
+
+              <ul className="mt-3 grid gap-3 text-sm text-zinc-700 dark:text-zinc-300 sm:grid-cols-2">
               <li className="rounded-xl border border-black/10 bg-zinc-50 p-4 dark:border-white/10 dark:bg-zinc-900">
                 Command channel rules (Telegram DM-first)
               </li>
@@ -38,7 +40,8 @@ export default function Home() {
               <li className="rounded-xl border border-black/10 bg-zinc-50 p-4 dark:border-white/10 dark:bg-zinc-900">
                 Rollout plan: least-privilege → automation
               </li>
-            </ul>
+              </ul>
+            </section>
 
             <div className="mt-2 flex flex-col gap-3 sm:flex-row">
               <a
