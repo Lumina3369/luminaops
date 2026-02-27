@@ -65,8 +65,7 @@ export default function Home() {
             </p>
 
             <p className="text-xs text-zinc-500">
-              Next: ship this landing page, then release the first paid kit (one-time purchase)
-              and iterate based on early users.
+              Questions? Reply to the delivery email for support.
             </p>
           </div>
         </div>
