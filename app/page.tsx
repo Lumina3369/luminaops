@@ -60,6 +60,10 @@ export default function Home() {
               </a>
             </div>
 
+            <p className="-mt-1 text-xs text-zinc-500">
+              Delivery is by email (check Spam/Promotions). Checkout may ask for bank/Link verification — that’s normal.
+            </p>
+
             <p className="text-xs text-zinc-500">
               Next: ship this landing page, then release the first paid kit (one-time purchase)
               and iterate based on early users.
