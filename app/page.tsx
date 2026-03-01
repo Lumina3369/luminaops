@@ -30,8 +30,11 @@ export default function Home() {
               </h2>
 
               <p className="mt-2 text-sm leading-6 text-zinc-600 dark:text-zinc-400">
-                A compact set of operational docs you can copy into your own setup.
-                Built for real assistants that use tools, not one-off chats.
+                A compact set of operational docs you can copy into your own setup. Built for real
+                assistants that use tools, not one-off chats.
+                <span className="block mt-1">
+                  Especially useful if you’re using agents to ship real outputs: PDFs, templates, and digital downloads.
+                </span>
               </p>
 
               <ul className="mt-4 grid gap-3 text-sm text-zinc-700 dark:text-zinc-300 sm:grid-cols-2">
