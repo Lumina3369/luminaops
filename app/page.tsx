@@ -1,3 +1,10 @@
+const STARTER_URL = "https://buy.stripe.com/eVqeVd3PvdyI8yD18W7bW05";
+
+const CEO_KIT_WINDOWS_URL = "https://buy.stripe.com/eVq14neu966g6qv04S7bW04";
+
+// TODO: Replace with your Pro pricing Payment Link.
+const PRO_URL = "https://buy.stripe.com/8x2cN5bhX8eo6qv8Bo7bW02";
+
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans text-zinc-950 dark:bg-black dark:text-zinc-50">
@@ -7,7 +14,7 @@ export default function Home() {
             <div className="inline-flex w-fit flex-wrap items-center gap-2 rounded-full border border-black/10 bg-zinc-50 px-3 py-1 text-xs font-medium text-zinc-700 dark:border-white/10 dark:bg-zinc-900 dark:text-zinc-300">
               <span>LuminaOps</span>
               <span className="opacity-50">•</span>
-              <span>Kit available now</span>
+              <span>Starter + CEO Kit (Windows) available</span>
               <span className="opacity-50">•</span>
               <span>Updated Feb 2026</span>
             </div>
@@ -23,6 +30,36 @@ export default function Home() {
               <span className="font-medium"> info channels</span>, avoiding prompt injection, and
               keeping work accounts segmented).
             </p>
+
+            <section id="sixty-seconds" className="scroll-mt-24">
+              <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+                What you get in 60 seconds
+              </h2>
+
+              <p className="mt-2 text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+                A compact operating kit you can drop into an agent repo so your AI assistant stays useful
+                without turning your life into an untrusted input channel.
+              </p>
+
+              <ul className="mt-4 grid gap-3 text-sm text-zinc-700 dark:text-zinc-300 sm:grid-cols-2">
+                <li className="rounded-xl border border-black/10 bg-zinc-50 p-4 dark:border-white/10 dark:bg-zinc-900">
+                  Command-channel rules (DM-first, untrusted input handling)
+                </li>
+                <li className="rounded-xl border border-black/10 bg-zinc-50 p-4 dark:border-white/10 dark:bg-zinc-900">
+                  Prompt-injection safety rails (trust ladder + approvals)
+                </li>
+                <li className="rounded-xl border border-black/10 bg-zinc-50 p-4 dark:border-white/10 dark:bg-zinc-900">
+                  Memory rhythm (daily notes → curated long-term memory)
+                </li>
+                <li className="rounded-xl border border-black/10 bg-zinc-50 p-4 dark:border-white/10 dark:bg-zinc-900">
+                  Account segregation map (GitHub/Vercel/Stripe + tokens)
+                </li>
+              </ul>
+
+              <p className="mt-3 text-xs text-zinc-500">
+                Pro adds the Memory Tree DIY Blueprint (and includes Lumina Browser as a bonus).
+              </p>
+            </section>
 
             <section id="whats-inside" className="scroll-mt-24">
               <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
@@ -101,6 +138,67 @@ export default function Home() {
               </ol>
             </section>
 
+            <section id="pricing" className="scroll-mt-24">
+              <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">Pricing</h2>
+
+              <div className="mt-3 grid gap-3 text-sm text-zinc-700 dark:text-zinc-300 sm:grid-cols-2">
+                <div className="rounded-2xl border border-black/10 bg-zinc-50 p-5 dark:border-white/10 dark:bg-zinc-900">
+                  <div className="flex items-baseline justify-between gap-3">
+                    <div className="font-semibold text-zinc-900 dark:text-zinc-100">Starter</div>
+                    <div className="font-semibold text-zinc-900 dark:text-zinc-100">$25</div>
+                  </div>
+                  <div className="mt-2 text-xs text-zinc-600 dark:text-zinc-400">
+                    The core kit + templates to run safely today.
+                  </div>
+                  <ul className="mt-3 grid gap-2 text-xs text-zinc-600 dark:text-zinc-400">
+                    <li>• Command-channel + safety rules</li>
+                    <li>• Daily rhythm + memory basics</li>
+                    <li>• Copy-paste templates (SOUL/USER/MEMORY/HEARTBEAT)</li>
+                  </ul>
+                  <a
+                    className="mt-4 inline-flex h-10 w-full items-center justify-center rounded-full bg-zinc-950 px-4 text-xs font-medium text-white transition hover:bg-zinc-800 dark:bg-white dark:text-black dark:hover:bg-zinc-200"
+                    href={STARTER_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Get Starter — $25
+                  </a>
+                  <div className="mt-2 text-[11px] text-zinc-500">
+                    Note: Starter price is shown in USD on this page — ensure your Stripe Payment Link matches ($25).
+                  </div>
+                </div>
+
+                <div className="rounded-2xl border border-black/10 bg-white p-5 shadow-sm dark:border-white/10 dark:bg-zinc-950">
+                  <div className="flex items-center justify-between gap-3">
+                    <div className="font-semibold text-zinc-900 dark:text-zinc-100">CEO Kit (Windows)</div>
+                    <div className="inline-flex items-center gap-2">
+                      <span className="rounded-full border border-black/10 bg-zinc-50 px-2 py-0.5 text-[11px] font-medium text-zinc-700 dark:border-white/10 dark:bg-zinc-900 dark:text-zinc-300">
+                        Recommended
+                      </span>
+                      <span className="font-semibold text-zinc-900 dark:text-zinc-100">$99</span>
+                    </div>
+                  </div>
+                  <div className="mt-2 text-xs text-zinc-600 dark:text-zinc-400">
+                    The Windows-native OpenClaw operating system: tasks, queues, and distribution loops.
+                  </div>
+                  <ul className="mt-3 grid gap-2 text-xs text-zinc-600 dark:text-zinc-400">
+                    <li>• Everything in Starter</li>
+                    <li>• X posting wired (keys + credits required)</li>
+                    <li>• YouTube uploads via OAuth + auto-uploader queue</li>
+                    <li>• Windows-first setup (PowerShell + Scheduled Tasks)</li>
+                  </ul>
+                  <a
+                    className="mt-4 inline-flex h-10 w-full items-center justify-center rounded-full bg-zinc-950 px-4 text-xs font-medium text-white transition hover:bg-zinc-800 dark:bg-white dark:text-black dark:hover:bg-zinc-200"
+                    href={CEO_KIT_WINDOWS_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Get CEO Kit (Windows) — $99
+                  </a>
+                </div>
+              </div>
+            </section>
+
             <section id="faq" className="scroll-mt-24">
               <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">FAQ</h2>
 
@@ -132,11 +230,15 @@ export default function Home() {
             <div className="mt-2 flex flex-col gap-3 sm:flex-row">
               <a
                 className="inline-flex h-12 items-center justify-center rounded-full bg-zinc-950 px-6 text-sm font-medium text-white transition hover:bg-zinc-800 dark:bg-white dark:text-black dark:hover:bg-zinc-200"
-                href="https://buy.stripe.com/7sY6oH1HndyIbKPaJw7bW01"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#pricing"
               >
-                Buy LuminaOps Kit — £19
+                View pricing
+              </a>
+              <a
+                className="inline-flex h-12 items-center justify-center rounded-full border border-black/10 px-6 text-sm font-medium transition hover:bg-black/[.04] dark:border-white/10 dark:hover:bg-white/10"
+                href="#sixty-seconds"
+              >
+                In 60 seconds
               </a>
               <a
                 className="inline-flex h-12 items-center justify-center rounded-full border border-black/10 px-6 text-sm font-medium transition hover:bg-black/[.04] dark:border-white/10 dark:hover:bg-white/10"
