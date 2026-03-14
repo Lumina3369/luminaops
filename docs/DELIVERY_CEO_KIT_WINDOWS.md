@@ -1,25 +1,26 @@
-# CEO Kit (Windows) — Delivery (Google Drive restricted Release folder)
+# CEO Kit (Windows) — Delivery (Google Drive link, unrestricted)
 
 ## Goal
-After successful Stripe payment for **CEO Kit (Windows)**, the buyer should receive a Google Drive link to a **restricted** Release folder that contains the product ZIP.
+After successful Stripe payment for **CEO Kit (Windows)**, the buyer should receive a Google Drive link to the product ZIP.
+
+We intentionally keep the file **unrestricted ("Anyone with the link")** so recipients do not need a Google account.
 
 ## Recommended flow
 
 1) Upload the release ZIP to Google Drive into a folder like:
    - `CEO Kit (Windows) / Releases / <version>`
 
-2) Keep folder **Restricted** by default.
+2) Set the ZIP file sharing to **Anyone with the link → Viewer**.
 
 3) On purchase:
-   - Grant the buyer email **Viewer** access to the **single ZIP file** (not the folder).
    - Email them:
      - the Drive link (file link)
      - a short install instruction:
        - unzip to `C:\Users\<you>\.openclaw\workspace\ceo-kit-win`
-       - run `scripts\setup.ps1` and `scripts\install-tasks.ps1`
+       - run `scripts\setup.ps1` (this installs Scheduled Tasks)
 
 ## Notes / gotchas
-- If the buyer uses a different email than their Google account, they may need to forward you the correct email.
+- Because the file is unrestricted-by-link, treat the link as the deliverable. If you want stricter controls later, migrate to per-buyer delivery hosts (pCloud) or per-buyer copies.
 - Consider versioned folders so prior customers keep stable access.
 
 ## Template email (short)

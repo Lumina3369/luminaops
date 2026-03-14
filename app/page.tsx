@@ -16,19 +16,18 @@ export default function Home() {
               <span className="opacity-50">•</span>
               <span>CEO Kit (Windows) available</span>
               <span className="opacity-50">•</span>
-              <span>Updated Feb 2026</span>
+              <span>Updated Mar 2026</span>
             </div>
 
             <h1 className="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
-              Prompt-safe workflows for AI agents — without the chaos.
+              CEO Kit (Windows): install once, then run your ops without babysitting.
             </h1>
 
             <p className="text-lg leading-8 text-zinc-700 dark:text-zinc-300">
-              I’m building <span className="font-semibold">LuminaOps</span>: a small, practical kit of
-              checklists, templates, and written guardrails that help you run an AI assistant safely
-              (separating <span className="font-medium">command channels</span> from
-              <span className="font-medium"> info channels</span>, avoiding prompt injection, and
-              keeping work accounts segmented).
+              <span className="font-semibold">CEO Kit (Windows)</span> is a Windows-native operating system for
+              <span className="font-medium"> OpenClaw</span>: Scheduled Tasks, queues, and distribution loops that
+              keep your business running (Stripe → delivery → catch-up → support) — with guardrails for
+              tool-using assistants.
             </p>
 
             <section id="sixty-seconds" className="scroll-mt-24">
@@ -37,8 +36,8 @@ export default function Home() {
               </h2>
 
               <p className="mt-2 text-sm leading-6 text-zinc-600 dark:text-zinc-400">
-                A compact operating kit you can drop into an agent repo so your AI assistant stays useful
-                without turning your life into an untrusted input channel.
+                A compact Windows-first operating kit you can drop into an OpenClaw agent repo so your assistant stays useful
+                without turning your life into an untrusted input channel — and with real-world distribution loops.
               </p>
 
               <ul className="mt-4 grid gap-3 text-sm text-zinc-700 dark:text-zinc-300 sm:grid-cols-2">
@@ -170,7 +169,7 @@ export default function Home() {
                     Get CEO Kit (Windows) — $99
                   </a>
                   <div className="mt-2 text-[11px] text-zinc-500">
-                    Delivery is by email. You will receive a Google Drive link to a restricted release file.
+                    Delivery is by email. You will receive a Google Drive download link (no account required).
                   </div>
                 </div>
               </div>
