@@ -14,7 +14,7 @@ export default function Home() {
             <div className="inline-flex w-fit flex-wrap items-center gap-2 rounded-full border border-black/10 bg-zinc-50 px-3 py-1 text-xs font-medium text-zinc-700 dark:border-white/10 dark:bg-zinc-900 dark:text-zinc-300">
               <span>LuminaOps</span>
               <span className="opacity-50">•</span>
-              <span>Starter + CEO Kit (Windows) available</span>
+              <span>CEO Kit (Windows) available</span>
               <span className="opacity-50">•</span>
               <span>Updated Feb 2026</span>
             </div>
@@ -141,51 +141,25 @@ export default function Home() {
             <section id="pricing" className="scroll-mt-24">
               <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">Pricing</h2>
 
-              <div className="mt-3 grid gap-3 text-sm text-zinc-700 dark:text-zinc-300 sm:grid-cols-2">
-                <div className="rounded-2xl border border-black/10 bg-zinc-50 p-5 dark:border-white/10 dark:bg-zinc-900">
-                  <div className="flex items-baseline justify-between gap-3">
-                    <div className="font-semibold text-zinc-900 dark:text-zinc-100">Starter</div>
-                    <div className="font-semibold text-zinc-900 dark:text-zinc-100">$25</div>
-                  </div>
-                  <div className="mt-2 text-xs text-zinc-600 dark:text-zinc-400">
-                    The core kit + templates to run safely today.
-                  </div>
-                  <ul className="mt-3 grid gap-2 text-xs text-zinc-600 dark:text-zinc-400">
-                    <li>• Command-channel + safety rules</li>
-                    <li>• Daily rhythm + memory basics</li>
-                    <li>• Copy-paste templates (SOUL/USER/MEMORY/HEARTBEAT)</li>
-                  </ul>
-                  <a
-                    className="mt-4 inline-flex h-10 w-full items-center justify-center rounded-full bg-zinc-950 px-4 text-xs font-medium text-white transition hover:bg-zinc-800 dark:bg-white dark:text-black dark:hover:bg-zinc-200"
-                    href={STARTER_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Get Starter — $25
-                  </a>
-                  <div className="mt-2 text-[11px] text-zinc-500">
-                    Note: Starter price is shown in USD on this page — ensure your Stripe Payment Link matches ($25).
-                  </div>
-                </div>
-
+              <div className="mt-3 grid gap-3 text-sm text-zinc-700 dark:text-zinc-300 sm:grid-cols-1">
                 <div className="rounded-2xl border border-black/10 bg-white p-5 shadow-sm dark:border-white/10 dark:bg-zinc-950">
                   <div className="flex items-center justify-between gap-3">
                     <div className="font-semibold text-zinc-900 dark:text-zinc-100">CEO Kit (Windows)</div>
                     <div className="inline-flex items-center gap-2">
                       <span className="rounded-full border border-black/10 bg-zinc-50 px-2 py-0.5 text-[11px] font-medium text-zinc-700 dark:border-white/10 dark:bg-zinc-900 dark:text-zinc-300">
-                        Recommended
+                        Available now
                       </span>
                       <span className="font-semibold text-zinc-900 dark:text-zinc-100">$99</span>
                     </div>
                   </div>
                   <div className="mt-2 text-xs text-zinc-600 dark:text-zinc-400">
-                    The Windows-native OpenClaw operating system: tasks, queues, and distribution loops.
+                    A Windows-native OpenClaw operating system: Scheduled Tasks, queues, and distribution loops.
                   </div>
                   <ul className="mt-3 grid gap-2 text-xs text-zinc-600 dark:text-zinc-400">
-                    <li>• Everything in Starter</li>
+                    <li>• Windows-first setup (PowerShell + Scheduled Tasks)</li>
                     <li>• X posting wired (keys + credits required)</li>
                     <li>• YouTube uploads via OAuth + auto-uploader queue</li>
-                    <li>• Windows-first setup (PowerShell + Scheduled Tasks)</li>
+                    <li>• Opinionated operating discipline (logging + guardrails)</li>
                   </ul>
                   <a
                     className="mt-4 inline-flex h-10 w-full items-center justify-center rounded-full bg-zinc-950 px-4 text-xs font-medium text-white transition hover:bg-zinc-800 dark:bg-white dark:text-black dark:hover:bg-zinc-200"
@@ -195,6 +169,9 @@ export default function Home() {
                   >
                     Get CEO Kit (Windows) — $99
                   </a>
+                  <div className="mt-2 text-[11px] text-zinc-500">
+                    Delivery is by email. You will receive a Google Drive link to a restricted release file.
+                  </div>
                 </div>
               </div>
             </section>
